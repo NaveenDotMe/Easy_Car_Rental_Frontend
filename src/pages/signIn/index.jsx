@@ -41,13 +41,13 @@ class SignIn extends Component {
 
             if (res.data.data.role == 'ADMIN') {
                 this.setState({
-                    link: '/adminDashBoard'
+                    link: '/admin'
                 });
             }
 
             if (res.data.data.role == 'DRIVER') {
                 this.setState({
-                    link: '/driverDashBoard'
+                    link: '/driver'
                 });
             }
 
@@ -57,7 +57,7 @@ class SignIn extends Component {
                 localStorage.setItem("returnDate", "");
                 this.setState({
 
-                    link: '/customerDashBoard'
+                    link: '/customer'
                 });
             }
 

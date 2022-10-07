@@ -978,7 +978,7 @@ class WebPage extends Component {
                         </Grid>
                         <Grid className={classes.copyright}>
                             <Typography variant="caption" display="block" gutterBottom style={{color: '#ffffff'}}>
-                                Copyright 2022,developed by <span style={{color: 'black'}}>Yasiru Dahanayaka</span>. All
+                                Copyright 2022,developed by <span style={{color: 'black'}}>Naveen Pabhath</span>. All
                                 Rights Reserved
                             </Typography>
                         </Grid>
